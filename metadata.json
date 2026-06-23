@@ -1,0 +1,8 @@
+{
+  "name": "Artisan Brew",
+  "description": "3D Luxury e-commerce catalog with precision calibration for curated design objects",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
