@@ -5,7 +5,7 @@
 <br/>
 <br/>
 
-# ✦ AESTHETE STUDIO
+#  AESTHETE STUDIO
 
 ### *Where objects become experiences.*
 
@@ -170,7 +170,7 @@ A slide-in **Order Summary** drawer with a clean, premium layout — product thu
 | **Database** | SQLite via Prisma ORM |
 | **Auth** | Google OAuth SSO + Email/Password |
 | **Payments** | Stripe (checkout integration) |
-| **AI** | Google Gemini API |
+
 
 ---
 
