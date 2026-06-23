@@ -39,11 +39,21 @@ Every product category morphs the interface — geometry, color, lighting, and t
 
 ## 🎬 Video Showcase
 
-> The full experience — scroll animations, 3D model morphing, theme switching, and the Museum Mode customizer — all captured below.
+> The full experience — scroll animations, 3D model morphing, theme switching, and the Museum Mode customizer.
 
-https://github.com/adnan-ash/aesthete-studio/assets/demo.mp4
+<div align="center">
 
-> *If the video doesn't play inline, [download it here](./assets/demo.mp4).*
+<a href="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/demo.mp4">
+  <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Coffee-dark.png" width="80%" alt="▶ Click to Watch Demo Video" />
+  <br/><br/>
+  <img src="https://img.shields.io/badge/▶_WATCH_DEMO_VIDEO-FF0000?style=for-the-badge&logoColor=white" alt="Watch Demo" height="36" />
+</a>
+
+</div>
+
+> *Click the image above or the button to download and watch the full interactive demo (MP4).*
+> 
+> *Or experience it live at **[aesthete-studio-c4t.pages.dev](https://aesthete-studio-c4t.pages.dev)** — no download needed!*
 
 ---
 
