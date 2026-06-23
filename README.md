@@ -1,105 +1,208 @@
-# 🌟 Aesthete Studio - Premium 3D Animated E-Commerce
-
-Aesthete Studio is an ultra-modern, immersive 3D conceptual e-commerce landing page and product showcase. Driven by a sensory-rich design philosophy, the interface dynamically morphs its three-dimensional models, typography, metrics, and global color themes based on the selected product category. 
-
-Designed for high-end artisan products—including **Design Books, High-end Glasses, Luxury Watches, and Specialty Coffee**—this project demonstrates how three-dimensional WebGL rendering and physics-based interactions can elevate modern web commerce.
-
----
-
-## 📽️ Interactive Showcase
-
-Behold the smooth GSAP scroll animations, 3D geometric product morphing, theme toggles, and cart drawers in action:
-
 <div align="center">
-  <img src="assets/demo.webp" width="100%" alt="Aesthete Studio Interactive Video Demo" style="border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.15);" />
+
+<img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Coffee-dark.png" width="100%" alt="Aesthete Studio — Premium 3D E-Commerce" />
+
+<br/>
+<br/>
+
+# ✦ AESTHETE STUDIO
+
+### *Where objects become experiences.*
+
+A hyper-premium, fully interactive **3D e-commerce concept** built with React, Three.js, and GSAP.
+Every product category morphs the interface — geometry, color, lighting, and typography all shift in unison.
+
+<br/>
+
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org)
+[![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://gsap.com)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io)
+
 </div>
 
 ---
 
-## ✨ Features & Visual Highlights
+## 🎬 Live Demo
 
-### 🎨 Dynamic Contextual Theming
-The website dynamically adjusts its entire styling, directional canvas lighting, and accent colors based on the chosen category. Switch between Dark and Light mode seamlessly.
+> The full experience — scroll animations, 3D model morphing, theme switching, and the Museum Mode customizer — all captured below.
 
-| 🕶️ Tortoise Shell Glasses (Light Mode) | ⌚ Minimalist Watch (Dark Mode) |
-| :---: | :---: |
-| <img src="assets/glasses_theme.png" width="100%" alt="Glasses Product Showcase" style="border-radius: 8px;" /> | <img src="assets/watch_theme.png" width="100%" alt="Watch Product Showcase" style="border-radius: 8px;" /> |
+https://github.com/adnan-ash/aesthete-studio/assets/demo.mp4
 
-### 🛠️ Interactive Three.js WebGL Canvas (`HeroCanvas.tsx`)
-A procedural 3D model engine renders real-time 3D geometry representing the core design of each product:
-- **Torus** for high-end glasses
-- **Cylinder** for luxury watches
-- **Box** for design books
-- **Capsule** for artisan coffee
-
-The geometries adapt smoothly using scroll-linked progress indicators, providing high-performance 60 FPS rotation and translation.
-
-### 📜 Kinetic Scroll-Triggered Layouts
-Leverages **Lenis Smooth Scroll** and **GSAP ScrollTrigger** to orchestrate fluid DOM animations. Large typography, detail cards, grid layouts, and highlight metrics glide gracefully into view as the user scrolls.
-
-| 📊 Product Detail Specs | 🛒 Slide-out Cart Drawer |
-| :---: | :---: |
-| <img src="assets/details_view.png" width="100%" alt="Product Details Specifications" style="border-radius: 8px;" /> | <img src="assets/cart_view.png" width="100%" alt="Interactive Cart Drawer" style="border-radius: 8px;" /> |
+> *If the video doesn't play inline, [download it here](./assets/demo.mp4).*
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## ✦ The Product Experience
 
-### Frontend
-- **React 18 & Vite**: Lightning-fast compilation and optimized asset delivery.
-- **Tailwind CSS**: Theme-adaptable design system and responsive grid structures.
-- **Three.js / React Three Fiber (R3F)**: Declarative, reactive 3D scene builder.
-- **React Three Drei**: Helpers and abstractions for high-fidelity WebGL stages, cameras, and controls.
-- **GSAP & ScrollTrigger**: State-of-the-art scroll animations.
-- **Lenis**: Buttery smooth native scrolling.
-- **Lucide React**: Premium icon sets.
+Four curated luxury objects. Four distinct worlds. One seamless interface.
 
-### Backend & Database
-- **Express.js & Node**: Rest APIs for user authentication, product catalogs, and cart checkouts.
-- **Prisma ORM**: Modern database schema client mapping to a persistent store.
-- **SQLite**: Local relational database configuration.
-- **Google OAuth SSO**: Beautiful OAuth sandbox flow with automatic switch to live credentials.
+Each product category transforms the entire canvas — the 3D geometry, accent color, ambient lighting, and typography respond dynamically to the current selection.
+
+<br/>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Coffee-dark.png" width="100%" alt="Ethiopian Yirgacheffe — Dark Mode" />
+      <br/><strong>☕ Ethiopian Yirgacheffe</strong>
+      <br/><sub>Specialty Single Origin · $24.99</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Coffee-light.png" width="100%" alt="Ethiopian Yirgacheffe — Light Mode" />
+      <br/><strong>☕ Ethiopian Yirgacheffe</strong>
+      <br/><sub>Same product — Light Mode activated</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Glasses-dark.png" width="100%" alt="Tortoise Shell Frames — Dark Mode" />
+      <br/><strong>🕶️ Tortoise Shell Frames</strong>
+      <br/><sub>Premium Acetate · $120 · Gold Accent Theme</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Watch-dark.png" width="100%" alt="Minimalist Chrono — Dark Mode" />
+      <br/><strong>⌚ Minimalist Chrono</strong>
+      <br/><sub>Swiss Movement · $350 · Teal Accent Theme</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Book-dark.png" width="100%" alt="Design Systems — Dark Mode" />
+      <br/><strong>📘 Design Systems</strong>
+      <br/><sub>Curated Design Book · $45 · Blue Accent Theme</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/book-light.png" width="100%" alt="Design Systems — Light Mode" />
+      <br/><strong>📘 Design Systems</strong>
+      <br/><sub>Light Mode — softer, editorial feel</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## ✦ Scroll & Collection Sections
+
+The experience unfolds as you scroll. Large kinetic typography, scroll-linked 3D rotations at 60fps, and GSAP-choreographed content reveals create a cinematic storytelling layer over every product.
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/CollectionView.png" width="100%" alt="Collection Section — Featured Line" />
+
+> *The "COLLECTION" section — 3D model on a pedestal, contextual metrics on either side, and large editorial headlines.*
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/catalogView.png" width="100%" alt="Full Catalog View" />
+
+> *The full **CATALOG** page — every product from every category, with real product images and live Add-to-Cart functionality.*
+
+---
+
+## ✦ Immersive Details View
+
+As you scroll deeper, the product reveals its story — description, technical specifications, and key metrics cascade into frame while the 3D model fills the periphery.
+
+<br/>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/DeatilsView1.png" width="100%" alt="Product Details — Vintage Chic Description" />
+      <br/><sub>Product description and material spec panel</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/DeatilsView2.png" width="100%" alt="Product Details — Key Metrics Panel" />
+      <br/><sub>Key metrics — UV400 protection, 18g frame weight</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## ✦ Museum Mode & The Customizer
+
+Click **ENTER MUSEUM** to enter a fully interactive customizer. Drag the 3D model freely. Adjust material finish (Standard / Matte / Chroma), scale, and laser engraving text. Toggle tactile synth audio for a full sensory experience.
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/Musum(view your product).png" width="100%" alt="Museum Mode — Interactive 3D Customizer" />
+
+---
+
+## ✦ Cart & Checkout
+
+A slide-in **Order Summary** drawer with a clean, premium layout — product thumbnail, name, category, price, subtotal, and a high-contrast Proceed to Checkout CTA.
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/adnan-ash/aesthete-studio/main/assets/cart.png" width="100%" alt="Order Summary — Slide-in Cart Drawer" />
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **UI Framework** | React 19 + TypeScript |
+| **Build Tool** | Vite 6 |
+| **3D Rendering** | Three.js · React Three Fiber · Drei |
+| **Animations** | GSAP + ScrollTrigger |
+| **Smooth Scroll** | Lenis |
+| **Styling** | Tailwind CSS v4 |
+| **Icons** | Lucide React |
+| **Backend** | Express.js + Node |
+| **Database** | SQLite via Prisma ORM |
+| **Auth** | Google OAuth SSO + Email/Password |
+| **Payments** | Stripe (checkout integration) |
+| **AI** | Google Gemini API |
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) installed.
+[Node.js 18+](https://nodejs.org/) required.
 
-### 1. Install Dependencies
+### 1. Clone & Install
 ```bash
+git clone https://github.com/adnan-ash/aesthete-studio.git
+cd aesthete-studio
 npm install
 ```
 
-### 2. Configure Environment Variables
-Copy `.env.example` into a new file named `.env` or `.env.local` and add your keys:
+### 2. Configure Environment
 ```bash
+cp .env.example .env.local
+```
+Open `.env.local` and add your keys:
+```env
 GEMINI_API_KEY=your_gemini_api_key_here
+# Optional — for real Google OAuth:
+# GOOGLE_CLIENT_ID=...
+# GOOGLE_CLIENT_SECRET=...
+# Optional — for Stripe checkout:
+# STRIPE_SECRET_KEY=...
 ```
 
-### 3. Initialize & Seed Database
-If the database file does not exist, the server will automatically run migration checks and seed initial product items. To seed or reset manually:
-```bash
-npx prisma db push
-npx tsx prisma/seed.ts
-```
-
-### 4. Run the Application
-Start the unified Express-Vite dev server:
+### 3. Run
 ```bash
 npm run dev
 ```
-Open **[http://localhost:3000](http://localhost:3000)** in your browser to view the application.
+Open **[http://localhost:3000](http://localhost:3000)** — the server auto-initializes and seeds the database on first run.
 
 ---
 
-## 🗄️ Database Schema Overview
+## 🗄️ Database Schema
 
 ```prisma
 model Product {
   id             Int     @id @default(autoincrement())
-  category       String  // coffee, book, glasses, watch
+  category       String  // coffee | book | glasses | watch
   name_en        String
   name_ar        String
   description_en String
@@ -113,7 +216,7 @@ model Product {
 model User {
   id        Int      @id @default(autoincrement())
   email     String   @unique
-  password  String?  // null for Google SSO
+  password  String?  // null for Google SSO users
   name      String?
   createdAt DateTime @default(now())
 }
@@ -121,4 +224,15 @@ model User {
 
 ---
 
-*Made with 💖 for a beautiful e-commerce experience.*
+<div align="center">
+
+<br/>
+
+*Crafted with obsessive attention to detail.*
+*Every pixel, every millisecond of animation, every geometric morph — intentional.*
+
+<br/>
+
+**Aesthete Studio** · A premium 3D e-commerce concept
+
+</div>
