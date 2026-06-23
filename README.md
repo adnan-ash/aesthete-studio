@@ -22,11 +22,22 @@ Every product category morphs the interface — geometry, color, lighting, and t
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io)
 
+<br/>
+<br/>
+
+<a href="https://aesthete-studio-c4t.pages.dev">
+  <img src="https://img.shields.io/badge/🌐_TRY_IT_LIVE-000000?style=for-the-badge&logoColor=white" alt="Try it Live" height="42" />
+</a>
+
+<br/>
+
+**👉 [aesthete-studio-c4t.pages.dev](https://aesthete-studio-c4t.pages.dev)**
+
 </div>
 
 ---
 
-## 🎬 Live Demo
+## 🎬 Video Showcase
 
 > The full experience — scroll animations, 3D model morphing, theme switching, and the Museum Mode customizer — all captured below.
 
